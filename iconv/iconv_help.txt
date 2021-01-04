@@ -1,0 +1,10 @@
+iconv.sh
+
+iconv.sh helps to delete non-UTF8 characters in text. This can be run using following command.
+
+./iconv.sh <inputFile> [options]
+
+A test case is provided in ./test_data. Use following command to run this test case:
+
+./iconv.sh ./test_data/test.txt
+

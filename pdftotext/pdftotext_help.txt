@@ -1,0 +1,10 @@
+pdftotext.sh
+
+pdftotext.sh helps to convert pdf file to text based on Xpdf's pdftotext. So Xpdf should be installed first and added to your environment. This can be run using following command:
+
+./pdftotext.sh <inputFile> [options]
+
+A test case is provided in ./test_data. Use following command to run this test case:
+
+./pdftotext.sh test_data/28855730.pdf
+
